@@ -1,0 +1,6 @@
+@PartInspectorApi_HostAddress = http://localhost:5122
+
+GET {{PartInspectorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
