@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PartInspectorApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d00dd99c64f4ae30a76efff9fe2716ef5c64e685")]
 [assembly: System.Reflection.AssemblyProductAttribute("PartInspectorApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PartInspectorApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

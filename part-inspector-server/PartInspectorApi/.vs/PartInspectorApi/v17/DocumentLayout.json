@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|solutionrelative:partinspectorapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|solutionrelative:partinspectorapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectorapi\\models\\partinspectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|solutionrelative:partinspectorapi\\models\\partinspectionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectorapi\\controllers\\partinspectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|solutionrelative:partinspectorapi\\controllers\\partinspectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4403940B-A8D0-48FE-8109-B67571A180FA}|PartInspectorDb\\PartInspectorDb.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectordb\\entities\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4403940B-A8D0-48FE-8109-B67571A180FA}|PartInspectorDb\\PartInspectorDb.csproj|solutionrelative:partinspectordb\\entities\\parts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|c:\\users\\super\\onedrive\\desktop\\part-inspector\\part-inspector-server\\partinspectorapi\\partinspectorapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AD12EB0-0D55-4209-ABB8-81B529865787}|PartInspectorApi\\PartInspectorApi.csproj|solutionrelative:partinspectorapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PartInspectorApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\appsettings.json",
+              "RelativeToolTip": "PartInspectorApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T01:01:41.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Program.cs",
+              "RelativeDocumentMoniker": "PartInspectorApi\\Program.cs",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Program.cs",
+              "RelativeToolTip": "PartInspectorApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T01:01:31.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parts.cs",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorDb\\Entities\\Parts.cs",
+              "RelativeDocumentMoniker": "PartInspectorDb\\Entities\\Parts.cs",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorDb\\Entities\\Parts.cs",
+              "RelativeToolTip": "PartInspectorDb\\Entities\\Parts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T00:26:18.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartInspectionModel.cs",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Models\\PartInspectionModel.cs",
+              "RelativeDocumentMoniker": "PartInspectorApi\\Models\\PartInspectionModel.cs",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Models\\PartInspectionModel.cs",
+              "RelativeToolTip": "PartInspectorApi\\Models\\PartInspectionModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:43:55.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PartInspectionController.cs",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Controllers\\PartInspectionController.cs",
+              "RelativeDocumentMoniker": "PartInspectorApi\\Controllers\\PartInspectionController.cs",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Controllers\\PartInspectionController.cs",
+              "RelativeToolTip": "PartInspectorApi\\Controllers\\PartInspectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:42:36.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PartInspectorApi\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\super\\OneDrive\\Desktop\\part-inspector\\part-inspector-server\\PartInspectorApi\\PartInspectorApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PartInspectorApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:15:04.045Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

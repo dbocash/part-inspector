@@ -1,0 +1,16 @@
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\bin\Debug\net8.0\PartInspectorDb.deps.json
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\bin\Debug\net8.0\PartInspectorDb.runtimeconfig.json
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\bin\Debug\net8.0\PartInspectorDb.dll
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\bin\Debug\net8.0\PartInspectorDb.pdb
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.AssemblyInfo.cs
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.sourcelink.json
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.dll
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\refint\PartInspectorDb.dll
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.pdb
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\PartInspectorDb.genruntimeconfig.cache
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\obj\Debug\net8.0\ref\PartInspectorDb.dll
+C:\Users\super\OneDrive\Desktop\part-inspector\part-inspector-server\PartInspectorApi\PartInspectorDb\bin\Debug\net8.0\PartInspectorDb.dll.config

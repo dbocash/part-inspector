@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartInspectorApi", "PartInspectorApi\PartInspectorApi.csproj", "{2AD12EB0-0D55-4209-ABB8-81B529865787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartInspectorApi", "PartInspectorApi\PartInspectorApi.csproj", "{2AD12EB0-0D55-4209-ABB8-81B529865787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartInspectorDb", "PartInspectorDb\PartInspectorDb.csproj", "{4403940B-A8D0-48FE-8109-B67571A180FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2AD12EB0-0D55-4209-ABB8-81B529865787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD12EB0-0D55-4209-ABB8-81B529865787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD12EB0-0D55-4209-ABB8-81B529865787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4403940B-A8D0-48FE-8109-B67571A180FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4403940B-A8D0-48FE-8109-B67571A180FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4403940B-A8D0-48FE-8109-B67571A180FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4403940B-A8D0-48FE-8109-B67571A180FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,150 @@
+[
+  {
+    "ContainingType": "PartInspectorApi.Controllers.UserController",
+    "Method": "GetUsers",
+    "RelativePath": "api/User/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.UserController",
+    "Method": "GetUserBadge",
+    "RelativePath": "api/User/GetUserBadge",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "badgeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.UserController",
+    "Method": "GetUserName",
+    "RelativePath": "api/User/GetUserName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.UserController",
+    "Method": "InsertUser",
+    "RelativePath": "api/User/InsertUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "PartInspectorApi.Models.UserInfoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.UserController",
+    "Method": "RemoveUser",
+    "RelativePath": "api/User/RemoveUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.PartInspectionController",
+    "Method": "GetParts",
+    "RelativePath": "PartInspection/GetAllParts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.PartInspectionController",
+    "Method": "GetPartsByAcceptOrReject",
+    "RelativePath": "PartInspection/GetPartsByAcceptOrReject",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "acceptOrReject",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.PartInspectionController",
+    "Method": "GetPartsByBadgeId",
+    "RelativePath": "PartInspection/GetPartsByBadgeId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "badgeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.PartInspectionController",
+    "Method": "GetPartsByPartNumber",
+    "RelativePath": "PartInspection/GetPartsByPartNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "partNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PartInspectorApi.Controllers.PartInspectionController",
+    "Method": "InsertPart",
+    "RelativePath": "PartInspection/InsertPart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPart",
+        "Type": "PartInspectorApi.Models.PartInspectionModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
