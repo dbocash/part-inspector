@@ -7,10 +7,16 @@ import camera from "@/assets/icons/camera.png"
 import background from "@/assets/images/form-back.jpg"
 import BarcodeScanner from '@/components/BarcodeScanner';
 import DropdownPicker from "@/components/DropdownPicker";
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "@/components/Redux/store";
 
 LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
 
 export default function Form() {
+
+  // For global variable usage (Validating username matches scanned)
+  const username = useSelector((state: RootState) => state.user.username);
+  const dispatch = useDispatch();
 
   // Disposition Data from the dropdownpicker component (null or string)
   const [dispostionData, setDisposition] = useState<string | null>(null)
@@ -96,6 +102,7 @@ export default function Form() {
                 <View className="bg-white h-full w-full">
                     <StatusBar style="light"/>
                     <Animated.Image source={background} className="h-full w-full absolute" resizeMode={"cover"}/>
+                    <Text>Welcome, {username}!</Text>
 
                         <View className="flex items-center mt-64">
                               <Animated.Text entering={FadeInDown.delay(200)} 
