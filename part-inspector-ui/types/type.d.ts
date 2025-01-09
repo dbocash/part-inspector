@@ -12,6 +12,18 @@ declare interface InputFieldProps extends TextInputProps {
     className?: string;
 }
 
+interface PickerItems {
+    label: string;
+    value: string;
+}
+
+interface FormData {
+    id: number,
+    username: string;
+    partNumber: string;
+    disposition: string;
+}
+
 declare interface BarcodeScannerProps {
     onBarcodeScanned: (data: {type: string; data: string}) => void;
     scannerVisible: () => void;
@@ -19,4 +31,5 @@ declare interface BarcodeScannerProps {
 
 declare interface DropdownPickerProps {
     dispoValue: (value: string | null) => void;
+    items: PickerItems[];
 }

@@ -3,9 +3,9 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const TableHeader = () => (
     <View style={styles.header}>
-        <Text style={styles.cell}>Name</Text>
-        <Text style={styles.cell}>Email</Text>
-        <Text style={styles.cell}>Phone</Text>
+        <Text style={styles.cell}>Username</Text>
+        <Text style={styles.cell}>Part Number</Text>
+        <Text style={styles.cell}>Disposition</Text>
     </View>
 );
 

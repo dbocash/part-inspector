@@ -2,13 +2,9 @@ import DropDownPicker from "react-native-dropdown-picker";
 import { useState } from "react";
 import { DropdownPickerProps } from "@/types/type";
 
-const DropdownPicker: React.FC<DropdownPickerProps> = ({dispoValue}) => {
+const DropdownPicker: React.FC<DropdownPickerProps> = ({dispoValue, items}) => {
     const [open, setOpen] = useState(false);
     const [value, setValue] = useState<string | null>(null);
-    const [items, setItems] = useState([
-        {label: 'Accept', value: 'accept'},
-        {label: 'Reject', value: 'reject'}
-    ]);
 
     return (
         <DropDownPicker
@@ -21,7 +17,6 @@ const DropdownPicker: React.FC<DropdownPickerProps> = ({dispoValue}) => {
                 setValue(value); // Update local state
                 dispoValue(value); //Pass the value back to the parent
             }}
-            setItems={setItems}
         />
     );
 }

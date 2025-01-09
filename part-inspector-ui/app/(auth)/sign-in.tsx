@@ -9,7 +9,7 @@ import axios from 'axios';
 import Animated, { FadeInDown } from "react-native-reanimated";
 import { useDispatch } from "react-redux";
 import { setUsername } from "@/components/Redux/UserSlice";
-import { Redirect } from "expo-router";
+import { Redirect, router } from "expo-router";
 
 const SignIn = () => {
     const dispatch = useDispatch();
@@ -35,7 +35,7 @@ const SignIn = () => {
         Then we check if the passwords align and the username exists and we reroute.*/}
         var response = null;
         try {
-            response = await axios.get(`https://qrlxlcaja8.execute-api.us-east-1.amazonaws.com/Dev/api/User/GetUserName?username=${form.username}`);
+            response = (await axios.get(`https://qrlxlcaja8.execute-api.us-east-1.amazonaws.com/Dev/api/User/GetUserName?username=${form.username}`)).data;
         } catch (error) {
             Toast.show({
                 type: 'error',
@@ -52,21 +52,19 @@ const SignIn = () => {
             throw console.error('The API did not respond with anything');
         }
 
-        const username = response.data.username;
-        const password = response.data.password;
+        const username = response.username;
+        const password = response.password;
 
-        console.log(`The username is ${username} and password is ${password}`)
-            
         if ((form.password != password)) {
             Toast.show({
                 type: 'error',
                 text1: 'The Username or Password did not match',
             });
+            return;
         } else {
             // console.log('The data is:', data);
             dispatch(setUsername(form.username));
-            alert(`Username: ${form.username}\nEmail: ${form.password}`);
-            <Redirect href={"/(tabs)/form"} />
+            router.replace('/');
         }
     };
 

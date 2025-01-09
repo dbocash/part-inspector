@@ -9,6 +9,8 @@ import BarcodeScanner from '@/components/BarcodeScanner';
 import DropdownPicker from "@/components/DropdownPicker";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "@/components/Redux/store";
+import { PickerItems } from "@/types/type";
+import axios from "axios";
 
 LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
 
@@ -17,6 +19,12 @@ export default function Form() {
   // For global variable usage (Validating username matches scanned)
   const username = useSelector((state: RootState) => state.user.username);
   const dispatch = useDispatch();
+
+  // The items for the DropdownPicker to be able to select
+  const itemsArray: PickerItems[] = [
+    { label: 'Accept', value: 'accept' },
+    { label: 'Reject', value: 'reject' },
+  ];
 
   // Disposition Data from the dropdownpicker component (null or string)
   const [dispostionData, setDisposition] = useState<string | null>(null)
@@ -35,7 +43,6 @@ export default function Form() {
   // disposition - The value of the dropdown list being returned
   const handleDisposition = (value: string | null) => {
     setDisposition(value)
-    alert(`The disposition is ${value}`)
   }
 
   // Toggles visibility of the scanner
@@ -64,7 +71,7 @@ export default function Form() {
       });
       return false;
     }
-    if (!partNumber || partNumber.length !== 8 || isNaN(Number(partNumber))) {
+    if (!partNumber || partNumber.length !== 8) {
       Toast.show({
         type: 'error',
         position: 'top',
@@ -84,13 +91,48 @@ export default function Form() {
   }
 
   // For handling the data from the forms and scanner
-  const handleData = () => {
+  const handleData = async() => {
     if (validateForm()) {
-      alert(`The dispositon is ${dispostionData}`)
-      alert(`The badge number is ${badgeNumber}`)
-      alert(`The part number is ${partNumber}`)
+      var userInfo = null;
+
+      try {
+          userInfo = (await axios.get(`https://qrlxlcaja8.execute-api.us-east-1.amazonaws.com/Dev/api/User/GetUserName?username=${username}`)).data;
+      } catch (error) {
+        console.error(error);
+        throw error;
+      }
+
+      if (userInfo.badgeId != badgeNumber) {
+        Toast.show({
+            type: 'error',
+            text1: 'The Badge Id does not match',
+        });
+        return;
+      }
+
+      const data = {
+        badgeId: badgeNumber,
+        partNumber: partNumber,
+        acceptOrReject: dispostionData,
+        username: username
+      }
+
+      try {
+        (await axios.post(`https://qrlxlcaja8.execute-api.us-east-1.amazonaws.com/Dev/PartInspection/InsertPart`, data));
+      } catch (error) {
+        console.error('There was an error inserting the data');
+        throw error;
+      }
+
+      Toast.show({
+        type: 'success',
+        text1: 'Information Successfully inserted',
+      });
+      return;
     }
   }
+
+
 
   return (
     <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={{ flex: 1 }} >
@@ -102,8 +144,6 @@ export default function Form() {
                 <View className="bg-white h-full w-full">
                     <StatusBar style="light"/>
                     <Animated.Image source={background} className="h-full w-full absolute" resizeMode={"cover"}/>
-                    <Text>Welcome, {username}!</Text>
-
                         <View className="flex items-center mt-64">
                               <Animated.Text entering={FadeInDown.delay(200)} 
                               className="text-5xl text-black shadow-lg tracking-wide">Inspection Form</Animated.Text>
@@ -131,12 +171,13 @@ export default function Form() {
                                   keyboardAppearance="dark"
                                   placeholder="Part Number" 
                                   placeholderTextColor={'gray'} 
+                                  value={partNumber}
                                   onChangeText={(value) => setPartNumber(value)}
                                   />
                             </View>
 
                             <View className="flex flex-row items-center bg-gray-100 rounded-2xl border border-gray-300 p-3 mb-3">
-                                <DropdownPicker dispoValue={handleDisposition}/>
+                                <DropdownPicker dispoValue={handleDisposition} items={itemsArray} />
                             </View>
                             <View className="w-full">
                                 <TouchableOpacity className="w-full bg-sky-400 p-3 rounded-2xl mb-3" onPress={handleData}>
